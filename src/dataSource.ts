@@ -7,7 +7,7 @@ const API_URL = 'https://api.openweather.org/data/2.5/'
 export class WeatherAPI extends RESTDataSource {
     constructor(){
         super()
-        this.baseURL = this.API_URL
+        this.baseURL = API_URL
     }
 
     willSendRequest(request: RequestOptions) {
