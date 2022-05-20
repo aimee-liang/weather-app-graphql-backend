@@ -1,4 +1,5 @@
-{ "name": "backend",
+{
+  "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,6 +9,8 @@
     "apollo-datasource-rest": "^3.5.3",
     "apollo-server": "^3.7.0",
     "camelcase-keys": "^7.0.2",
-    "graphql": "^16.5.0"
+    "graphql": "^16.5.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
   }
 }
